@@ -4,6 +4,16 @@ Unity prototype for a spatial memory task.
 
 The player sees several cubes. For each trial, one cube is chosen as the target. After a short delay, only this target cube disappears. The player clicks where they remember the target was. The project calculates the distance between the clicked position and the real target position.
 
+## Screenshots
+
+![Unity scene view showing the memory task setup](Docs/Images/unity-scene-view.png)
+
+Scene view with the memory objects, walls, floor, camera, and MemoryManager selected.
+
+![Unity game view showing the memory task result](Docs/Images/unity-game-view.png)
+
+Game view with the cubes visible and the Unity Console showing the selected target, error distance, and score.
+
 ## Goal
 
 This project shows a simple experimental loop in Unity:
@@ -75,4 +85,5 @@ This project is a small proof of concept for a memory experiment. It connects a 
 2. Unity version verified in `ProjectSettings/ProjectVersion.txt`.
 3. Unity packages verified in `Packages/manifest.json`.
 4. Gameplay logic verified in `Assets/Scripts/MemoryObject.cs` and `Assets/Scripts/MemoryManager.cs`.
-5. Application context based on the InterDigital job text provided in the conversation.
+5. Screenshots verified from `Docs/Images/unity-scene-view.png` and `Docs/Images/unity-game-view.png`.
+6. Application context based on the InterDigital job text provided in the conversation.
